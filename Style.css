@@ -242,3 +242,499 @@ nav{
     background-color:#3078FF ;
     border: none;
 }
+@media screen and (max-width: 768px){
+ *{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 30px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+p{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+.first_page{
+    background-image: url("slider-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    color: transparent;
+    position: sticky;
+    top: 0;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+.navig h1{
+    color: #3078FF;
+    padding-left: 15%;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.navig ul{
+    list-style: none;
+}
+.navig li{
+    color:white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+.navig li:hover{
+    color: #3078FF;
+
+}
+
+.intro{
+    width: 100%;
+    position: relative;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    font-family: "Source sans Pro", sans-serif;
+    font-weight: bold;
+}
+.intro h1{
+    color: #3078FF;
+}
+
+.second_page{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.identity{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+.identity h2{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    padding: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+.identity h2::before{
+    content: "";
+    height: 30%;
+    width: 5px;
+    background: #3078FF;
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+}
+.image{
+    width: 80%;
+}
+.image img{
+    width:100%;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lists{
+    width: 100%;
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: dashed black 1px;
+}
+.lists ul{
+    list-style: none;
+}
+.lists li{
+    padding: 10px;
+}
+.info input{
+    padding: 15px;
+    margin: 10px;
+    background-color: #3078FF;
+    border: none;
+    color: white;
+}
+
+.services{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.servs{
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topic h2{
+    position: relative;
+    left: 40%;
+    border-bottom: #3078FF double 2px;
+    top: 0;
+}
+.serv{
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.topic2 h2{
+    position: relative;
+    left: 45%;
+}
+.pictures{
+    left: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 20px;
+}
+.pictures img{
+    width: 70%;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.form h2{
+    border-bottom: #3078FF double 2px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.bottoms{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.half{
+    width: 48%;
+    height: 35px;
+}
+
+.subject{
+    width: 100%;
+    height: 35px;
+}
+.message{
+    width: 100%;
+    height: 100px;
+}
+.submit{
+    padding: 12px;
+    color: white;
+    background-color:#3078FF ;
+    border: none;
+}
+}
+
+
+@media screen and (max-width: 576px){
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-size: 30px;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: normal;
+    color: #333333;
+}
+p{
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+.first_page{
+    background-image: url("slider-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    color: transparent;
+    position: sticky;
+    top: 0;
+}
+.navig{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+.navig h1{
+    color: #3078FF;
+    padding-left: 15%;
+    font-family: Roboto, serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.navig ul{
+    list-style: none;
+}
+.navig li{
+    color:white;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px;
+}
+.navig li:hover{
+    color: #3078FF;
+
+}
+
+.intro{
+    width: 100%;
+    position: relative;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: xx-large;
+    font-family: "Source sans Pro", sans-serif;
+    font-weight: bold;
+}
+.intro h1{
+    color: #3078FF;
+}
+
+.second_page{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.identity{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+.identity h2{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+    position: relative;
+    padding: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+.identity h2::before{
+    content: "";
+    height: 30%;
+    width: 5px;
+    background: #3078FF;
+    position: absolute;
+    left: 0;
+    bottom: 35%;
+}
+.image{
+    width: 80%;
+}
+.image img{
+    width:100%;
+}
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lists{
+    width: 100%;
+    padding: 25px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: dashed black 1px;
+}
+.lists ul{
+    list-style: none;
+}
+.lists li{
+    padding: 10px;
+}
+.info input{
+    padding: 15px;
+    margin: 10px;
+    background-color: #3078FF;
+    border: none;
+    color: white;
+}
+
+.services{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.servs{
+    width: 70%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.topic h2{
+    position: relative;
+    left: 40%;
+    border-bottom: #3078FF double 2px;
+    top: 0;
+}
+.serv{
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+}
+
+
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.topic2 h2{
+    position: relative;
+    left: 45%;
+}
+.pictures{
+    left: 10%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 20px;
+}
+.pictures img{
+    width: 70%;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.form h2{
+    border-bottom: #3078FF double 2px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.bottoms{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.half{
+    width: 48%;
+    height: 35px;
+}
+
+.subject{
+    width: 100%;
+    height: 35px;
+}
+.message{
+    width: 100%;
+    height: 100px;
+}
+.submit{
+    padding: 12px;
+    color: white;
+    background-color:#3078FF ;
+    border: none;
+}
+}
